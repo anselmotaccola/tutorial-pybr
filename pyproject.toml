@@ -5,7 +5,7 @@ description = ""
 authors = ["Anselmo Margelo Taccola <anselmomt@taginfraestrutura.com.br>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 fastapi = "^0.77.1"
 httpx = "^0.22.0"
 uvicorn = "^0.17.6"

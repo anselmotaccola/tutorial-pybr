@@ -365,7 +365,6 @@ python-versions = ">=3.6.3,<4.0.0"
 [package.dependencies]
 commonmark = ">=0.9.0,<0.10.0"
 pygments = ">=2.6.0,<3.0.0"
-typing-extensions = {version = ">=4.0.0,<5.0", markers = "python_version < \"3.9\""}
 
 [package.extras]
 jupyter = ["ipywidgets (>=7.5.1,<8.0.0)"]
@@ -388,7 +387,6 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 anyio = ">=3.4.0,<5"
-typing-extensions = {version = ">=3.10.0", markers = "python_version < \"3.10\""}
 
 [package.extras]
 full = ["itsdangerous", "jinja2", "python-multipart", "pyyaml", "requests"]
@@ -440,8 +438,8 @@ standard = ["websockets (>=10.0)", "httptools (>=0.4.0)", "watchgod (>=0.6)", "p
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.8"
-content-hash = "bb0ee5bf19fdf1ffb58517c2f1b4de17788ebbca9f1fe2961f3607d7337f0c6b"
+python-versions = "^3.10"
+content-hash = "712ddc361ac7fb1302745dd32b89cdc9f9f662bf813813bb68378a4a05aaf6dd"
 
 [metadata.files]
 anyio = [
